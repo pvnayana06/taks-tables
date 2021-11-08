@@ -1,0 +1,76 @@
+caption
+{
+  caption-side: top;
+  text-align: center;
+  padding: 15px;
+
+}
+.background
+{
+     height: 100%;
+     background-position: center;
+     background-size: cover;
+}
+
+table
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 700;
+}
+td, th 
+{
+  border: 2px solid rgb(12, 10, 10);
+  text-align: left;
+  padding: 20px;
+}
+
+th1 
+{
+  border: 2px solid rgb(12, 10, 10);
+  text-align: center;
+  padding: 20px;
+}
+
+tr:nth-child(even) 
+{
+   background-color: rgb(219, 255, 89);
+   color:#ee1c1c;
+   border-style: dotted;
+   text-align: center;
+}
+
+tr:nth-child(odd)
+{
+   color: rgb(88, 0, 0);
+   text-align: center;
+}
+
+footer 
+ {
+   text-align: center;
+   padding: 3px;
+   background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_be0WIUZSU8AdBYz7uoCNmJO-sWSoQ-ZHpQ_r5iSWaIIDz5jlILY3RzIrjtUJb2VJR0&usqp=CAU");
+   color: rgb(146, 22, 22);
+   border-style: double;
+}
+
+tfoot 
+{
+   font-family: 'Rock Salt', cursive;
+   border: 2px solid rgb(0, 0, 0);
+   background-image: url("https://swall.teahub.io/photos/small/276-2761425_colorful-simple-background-design.jpg");
+}
+
+tfoot td 
+{
+   padding: 15px;
+   border: 2px solid rgb(53, 20, 53);
+   text-align: center;
+}
+tbody
+{
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgv7WXNiT3hrCLSco1yWPsa0NXYGlVXKfUVPsbqYMSqJeHR8s0ISydcjJQhC9mSGEP_Ns&usqp=CAU");
+}

@@ -1,0 +1,70 @@
+caption
+{
+  caption-side: top;
+  text-align: center;
+  padding: 15px;
+
+}
+.background
+{
+     height: 100%;
+     background-position: center;
+     background-size: cover;
+}
+
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: 700;
+  border: 2px solid rgb(145, 114, 148);
+  padding: 20px;
+}
+td,th{
+    
+        border: 1px solid #030202;
+        text-align: left;
+        padding: 20px;
+      
+}
+
+tr:nth-child(even) 
+{
+   background-color: rgb(219, 255, 89);
+   color:#ee1c1c;
+   border-style: dotted;
+   text-align: center;
+}
+
+tr:nth-child(odd)
+{
+   color: rgb(88, 0, 0);
+   text-align: center;
+}
+
+footer 
+ {
+   text-align: center;
+   padding: 3px;
+   color: rgb(7, 5, 5);
+   border-style: double;
+   background-image: url("https://cdn.wallpapersafari.com/22/98/g9s7JI.png");
+}
+
+tfoot 
+{
+   font-family: sans-serif;
+   border: 2px solid rgb(15, 5, 15);
+  background-image: url("https://t3.ftcdn.net/jpg/03/51/51/28/360_F_351512882_2kFH8IaSe4lyA7SXBLzEXyGKNEgbO1iH.jpg");
+}
+
+tfoot td 
+{
+   padding: 15px;
+   border: 2px solid rgb(53, 20, 53);
+   
+}
+tbody
+{
+  background-image: url("https://t3.ftcdn.net/jpg/03/51/51/28/360_F_351512882_2kFH8IaSe4lyA7SXBLzEXyGKNEgbO1iH.jpg");
+}
